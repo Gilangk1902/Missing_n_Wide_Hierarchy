@@ -1,5 +1,6 @@
 package Missing_Hierarchy;
 
+import Missing_Hierarchy.Pokemons.Charmander;
 import Missing_Hierarchy.Pokemons.Mudkip;
 import Missing_Hierarchy.Pokemons.Treecko;
 
@@ -10,7 +11,7 @@ public class App {
 
     private static void Test(){
         Mudkip bob = new Mudkip("Bob");
-        Treecko geck = new Treecko("Geck");
+        Charmander geck = new Charmander("Geck");
 
         System.out.println(bob.getName() + " " + bob.getHealth());
         System.out.println(geck.getName() + " " + geck.getHealth());

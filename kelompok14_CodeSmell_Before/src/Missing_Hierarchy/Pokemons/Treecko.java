@@ -30,7 +30,7 @@ public class Treecko extends Entity {
             if(mudkipType.getWeakness().contains(move.getTypeName())){
                 damageMultiplier = 3;
                 System.out.println(getName() + " used " + move.getName()
-                        + " its not effectibe");
+                        + " its super effectibe");
             }
             else if(mudkipType.getEffectives().contains(move.getTypeName())){
                 damageMultiplier = 1;
@@ -46,7 +46,7 @@ public class Treecko extends Entity {
             if(charmanderType.getWeakness().contains(move.getTypeName())){
                 damageMultiplier = 3;
                 System.out.println(getName() + " used " + move.getName()
-                        + " its not effectibe");
+                        + " its super effectibe");
             }
             else if(charmanderType.getEffectives().contains(move.getTypeName())){
                 damageMultiplier = 1;
@@ -62,7 +62,7 @@ public class Treecko extends Entity {
             if(treeckoType.getWeakness().contains(move.getTypeName())){
                 damageMultiplier = 3;
                 System.out.println(getName() + " used " + move.getName()
-                        + " its not effectibe");
+                        + " its super effectibe");
             }
             else if(treeckoType.getEffectives().contains(move.getTypeName())){
                 damageMultiplier = 1;
